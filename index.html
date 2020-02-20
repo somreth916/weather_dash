@@ -21,14 +21,69 @@
         </nav>
     </header>
     <div class="tile is-ancestor">
-        <div class="tile is-4 is-vertical is-parent">
-            <div class="tile is-child box">
-                <p class="title">One</p>
+        <div class="tile is-3 is-vertical is-parent">
+            <div class="tile is-child box is-size-5" id="container-1">
+                <p class="is-size-4 has-text-black">Search for a City:</p>
+                <div class="field has-addons">
+                    <div class="control">
+                        <input class="input" type="text" placeholder="">
+                    </div>
+                    <div class="control">
+                        <a class="button is-info">
+                            <span class="icon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <table class="table is-hoverable is-fullwidth">
+                    <tbody>
+                        <tr class="is-selected">
+                            <td>Sacramento</td>
+                        </tr>
+                        <tr>
+                            <td>Austin</td>
+                        </tr>
+                        <tr>
+                            <td>Chicago</td>
+                        </tr>
+                        <tr>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Orlando</td>
+                        </tr>
+                        <tr>
+                            <td>San Francisco</td>
+                        </tr>
+                        <tr>
+                            <td>Seattle</td>
+                        </tr>
+                        <tr>
+                            <td>Denver</td>
+                        </tr>
+                        <tr>
+                            <td>Colorado</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <div class="tile is-parent">
+        <div class="tile is-parent is-vertical">
             <div class="tile is-child box">
-                <p class="title">Two</p>
+                <div class="container is-fluid" id="container-2">
+                    <div>
+                        <div id="city">City</div>
+                        <div id="temp">Temp</div>
+                        <div id="humidity">Humidity</div>
+                        <div id="wind">Wind Speed</div>
+                        <div id="uvIndex">UV Index</div>
+                    </div>
+                </div>
+                <div class="container is-fluid" id="container-3">
+                    <p class="is-size-3">5-Day Forecast:</p>
+
+                </div>
             </div>
         </div>
     </div>
