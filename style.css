@@ -17,6 +17,10 @@
     height: 300px;
 }
 
+.forecast-cont {
+    background-color: #0099ff;
+}
+
 .table tr.is-selected {
     background-color: #3298dc;
     color: #fff;
