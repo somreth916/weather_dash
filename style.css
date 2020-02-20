@@ -6,3 +6,18 @@
     text-align: center;
     color: white;
 }
+
+#container-1 {
+    background-color: whitesmoke;
+}
+
+#container-2 {
+    border-radius: 10px;
+    border-style: groove;
+    height: 300px;
+}
+
+.table tr.is-selected {
+    background-color: #3298dc;
+    color: #fff;
+}
